@@ -1,0 +1,13 @@
+:root{--bg:#f6f8fa;--card:#fff;--accent:#0366d6}
+*{box-sizing:border-box}
+body{font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;margin:20px;background:var(--bg);color:#111}
+.app{max-width:900px;margin:0 auto}
+.cards{display:flex;gap:16px}
+.card{background:var(--card);padding:16px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.08);flex:1}
+.count{font-size:2rem;font-weight:600;margin-bottom:8px}
+.task-form{display:flex;gap:8px;margin-bottom:12px}
+.task-form input{flex:1;padding:8px}
+.task-list{list-style:none;padding:0;margin:0}
+.task-list li{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-top:1px solid #eee}
+.task-list li.done span{text-decoration:line-through;color:#666}
+.remove{background:#ffdddd;border:1px solid #ffbdbd;padding:6px 8px;border-radius:6px}
